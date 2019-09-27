@@ -1,5 +1,4 @@
-﻿using System;
-using Library.Enum;
+﻿using Library.Enum;
 
 namespace Library.Class
 {
@@ -7,17 +6,18 @@ namespace Library.Class
     {
         public Direction DirectionGaze { get; set; }
         public Point Position { get; set; } = new Point();
+        protected virtual int Speed { get; set; } = 1;
 
         public void Move(Movement movement)
         {
             int value;
             if (movement == Movement.Forward)
             {
-                value = 1;
+                value = Speed;
             }
             else
             {
-                value = -1;
+                value = -Speed;
             }
 
             switch (DirectionGaze)

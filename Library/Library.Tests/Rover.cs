@@ -1,5 +1,4 @@
-﻿using System;
-using Library.Enum;
+﻿using Library.Enum;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Library.Tests
