@@ -3,3 +3,9 @@
 ################################################################################
 
 /.vs
+/Library/.vs
+/Library/Library/bin/Debug/netstandard2.0
+/Library/Library/obj
+/Library/Library.Tests/bin/Debug
+/Library/Library.Tests/obj/Debug
+/Library/packages
