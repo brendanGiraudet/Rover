@@ -8,10 +8,10 @@ namespace Library.Class
         public Direction DirectionGaze { get; set; }
         public Point Position { get; set; } = new Point();
 
-        public void Move(Movement direction)
+        public void Move(Movement movement)
         {
-            var value = 0;
-            if (direction == Movement.Forward)
+            int value;
+            if (movement == Movement.Forward)
             {
                 value = 1;
             }
